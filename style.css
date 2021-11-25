@@ -64,6 +64,7 @@ body {
 
 .card_title{
   font-weight: 400;
+  font-size: 20px;
   color: var(--white);
   margin-bottom: 25px;
 }
