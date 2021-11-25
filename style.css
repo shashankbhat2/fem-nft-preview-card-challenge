@@ -19,6 +19,10 @@ a{
   text-decoration: none;
 }
 
+h1{
+  display: none;
+}
+
 html, body {
   height: 100%;
 }
@@ -75,11 +79,12 @@ body {
   position: absolute;
   width: inherit;
   height: inherit;
-  background-color: rgba(0, 255, 247, 0.5);
+  background-color: rgba(0, 255, 247, 0.3);
   background-blend-mode: hard-light;
   justify-content: center;
   align-items: center;
   display: none;
+  transition: .5s all ease-in-out;
   border-radius: 5px;
 }
 
@@ -94,6 +99,7 @@ body {
   height: 300px;
   width: 300px;
   margin-bottom: 25px;
+  transition: .5s all ease-in-out;
 }
 
 
@@ -133,7 +139,7 @@ body {
 }
 
 .line{
-  border-bottom: 0.5px solid lightslategray;
+  border-bottom: 0.5px solid #4f4f4f;
   margin-bottom: 25px;
 }
 .card_credits{
@@ -185,7 +191,7 @@ body {
 .attribution > span{
   margin-bottom: 2px;
   font-weight: 300;
-  color: dimgray;
+  color: gray;
   font-size: 12px;
 }
 
